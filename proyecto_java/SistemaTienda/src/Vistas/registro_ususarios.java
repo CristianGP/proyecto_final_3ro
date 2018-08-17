@@ -51,12 +51,12 @@ public class registro_ususarios extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
-        jbregistrar.setBackground(new java.awt.Color(0, 0, 0));
-        jbregistrar.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
-        jbregistrar.setForeground(new java.awt.Color(255, 255, 255));
+        jbregistrar.setBackground(new java.awt.Color(255, 255, 153));
+        jbregistrar.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jbregistrar.setForeground(new java.awt.Color(0, 0, 153));
         jbregistrar.setText("Registrar");
         jbregistrar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -64,54 +64,54 @@ public class registro_ususarios extends javax.swing.JFrame {
             }
         });
 
-        txtcorreo.setBackground(new java.awt.Color(255, 255, 255));
-        txtcorreo.setFont(new java.awt.Font("Arial Narrow", 1, 12)); // NOI18N
-        txtcorreo.setForeground(new java.awt.Color(0, 0, 0));
+        txtcorreo.setBackground(new java.awt.Color(255, 255, 153));
+        txtcorreo.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        txtcorreo.setForeground(new java.awt.Color(0, 0, 153));
 
         jLabel5.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel5.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(0, 0, 204));
         jLabel5.setText("Correo:");
 
-        txtnombre.setBackground(new java.awt.Color(255, 255, 255));
-        txtnombre.setFont(new java.awt.Font("Arial Narrow", 1, 12)); // NOI18N
-        txtnombre.setForeground(new java.awt.Color(0, 0, 0));
+        txtnombre.setBackground(new java.awt.Color(255, 255, 153));
+        txtnombre.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        txtnombre.setForeground(new java.awt.Color(0, 0, 153));
 
-        txtconfirmar.setBackground(new java.awt.Color(255, 255, 255));
-        txtconfirmar.setFont(new java.awt.Font("Arial Narrow", 1, 12)); // NOI18N
-        txtconfirmar.setForeground(new java.awt.Color(0, 0, 0));
+        txtconfirmar.setBackground(new java.awt.Color(255, 255, 153));
+        txtconfirmar.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        txtconfirmar.setForeground(new java.awt.Color(0, 0, 153));
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel3.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 204));
         jLabel3.setText("<html>Confirmar Pasword:<html>");
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel2.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 204));
         jLabel2.setText("Password:");
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
         jLabel1.setText("Usuario:");
 
-        txtusuario.setBackground(new java.awt.Color(255, 255, 255));
-        txtusuario.setFont(new java.awt.Font("Arial Narrow", 1, 12)); // NOI18N
-        txtusuario.setForeground(new java.awt.Color(0, 0, 0));
+        txtusuario.setBackground(new java.awt.Color(255, 255, 153));
+        txtusuario.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        txtusuario.setForeground(new java.awt.Color(0, 0, 153));
 
-        txtpassword.setBackground(new java.awt.Color(255, 255, 255));
-        txtpassword.setFont(new java.awt.Font("Arial Narrow", 1, 12)); // NOI18N
-        txtpassword.setForeground(new java.awt.Color(0, 0, 0));
+        txtpassword.setBackground(new java.awt.Color(255, 255, 153));
+        txtpassword.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        txtpassword.setForeground(new java.awt.Color(0, 0, 153));
 
         jLabel4.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel4.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 0, 204));
         jLabel4.setText("Nombre:");
 
-        jl_regresar.setBackground(new java.awt.Color(0, 0, 0));
-        jl_regresar.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
-        jl_regresar.setForeground(new java.awt.Color(255, 255, 255));
+        jl_regresar.setBackground(new java.awt.Color(255, 255, 153));
+        jl_regresar.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jl_regresar.setForeground(new java.awt.Color(0, 0, 153));
         jl_regresar.setText("Regreasar");
         jl_regresar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -119,9 +119,9 @@ public class registro_ususarios extends javax.swing.JFrame {
             }
         });
 
-        jLabel6.setBackground(new java.awt.Color(51, 51, 51));
-        jLabel6.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setBackground(new java.awt.Color(255, 255, 153));
+        jLabel6.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 0, 204));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("Registro de Usuarios");
         jLabel6.setOpaque(true);
@@ -137,32 +137,38 @@ public class registro_ususarios extends javax.swing.JFrame {
                         .addGap(12, 12, 12)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(17, 17, 17)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel1)
-                                    .addComponent(jLabel2))
-                                .addGap(28, 28, 28)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(txtusuario, javax.swing.GroupLayout.DEFAULT_SIZE, 224, Short.MAX_VALUE)
-                                    .addComponent(txtpassword)))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(6, 6, 6)
-                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(txtconfirmar, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(11, 11, 11)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel5)
-                                    .addComponent(jLabel4))
-                                .addGap(34, 34, 34)
+                                    .addComponent(jLabel4)
+                                    .addComponent(jLabel5))
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(txtcorreo, javax.swing.GroupLayout.PREFERRED_SIZE, 288, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtnombre, javax.swing.GroupLayout.PREFERRED_SIZE, 288, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGap(28, 28, 28)
+                                        .addComponent(txtnombre, javax.swing.GroupLayout.PREFERRED_SIZE, 288, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(0, 3, Short.MAX_VALUE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(txtcorreo, javax.swing.GroupLayout.PREFERRED_SIZE, 288, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addGroup(jPanel1Layout.createSequentialGroup()
+                                    .addGap(6, 6, 6)
+                                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(txtconfirmar, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(jPanel1Layout.createSequentialGroup()
+                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel1)
+                                        .addComponent(jLabel2))
+                                    .addGap(28, 28, 28)
+                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(txtusuario, javax.swing.GroupLayout.DEFAULT_SIZE, 224, Short.MAX_VALUE)
+                                        .addComponent(txtpassword))))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(89, 89, 89)
+                        .addGap(104, 104, 104)
                         .addComponent(jbregistrar)
-                        .addGap(42, 42, 42)
-                        .addComponent(jl_regresar)))
+                        .addGap(18, 18, 18)
+                        .addComponent(jl_regresar)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addGap(0, 9, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -181,26 +187,25 @@ public class registro_ususarios extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtconfirmar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(26, 26, 26)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(txtnombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(30, 30, 30)
-                        .addComponent(txtnombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel4)))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
                         .addComponent(jLabel5))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(26, 26, 26)
+                        .addGap(18, 18, 18)
                         .addComponent(txtcorreo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(28, 28, 28)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jbregistrar)
                     .addComponent(jl_regresar))
-                .addContainerGap(17, Short.MAX_VALUE))
+                .addGap(22, 22, 22))
         );
+
+        jMenuBar1.setBackground(new java.awt.Color(255, 255, 153));
 
         jMenu1.setText("Inicio");
         jMenu1.addMouseListener(new java.awt.event.MouseAdapter() {

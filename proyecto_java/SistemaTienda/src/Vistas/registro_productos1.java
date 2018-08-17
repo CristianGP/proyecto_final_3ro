@@ -113,79 +113,90 @@ public class registro_productos1 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 153, 0));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel6.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel6.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jLabel6.setBackground(new java.awt.Color(255, 255, 153));
+        jLabel6.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(0, 0, 204));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("Registro de Productos");
         jLabel6.setOpaque(true);
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setBackground(new java.awt.Color(0, 51, 204));
         jLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setForeground(new java.awt.Color(0, 0, 153));
         jLabel1.setText("Clave:");
 
-        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setBackground(new java.awt.Color(0, 51, 204));
         jLabel2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setForeground(new java.awt.Color(0, 0, 153));
         jLabel2.setText("Nombre:");
 
-        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel3.setBackground(new java.awt.Color(0, 51, 204));
         jLabel3.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setForeground(new java.awt.Color(0, 0, 153));
         jLabel3.setText("Contenido:");
 
-        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel4.setBackground(new java.awt.Color(0, 51, 204));
         jLabel4.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setForeground(new java.awt.Color(0, 0, 153));
         jLabel4.setText("Unidades:");
 
-        jLabel5.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel5.setBackground(new java.awt.Color(0, 51, 204));
         jLabel5.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setForeground(new java.awt.Color(0, 0, 153));
         jLabel5.setText("Precio venta:");
 
-        jLabel7.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel7.setBackground(new java.awt.Color(0, 51, 204));
         jLabel7.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setForeground(new java.awt.Color(0, 0, 153));
         jLabel7.setText("Stok Actual:");
 
-        jtf_clave.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
-        jtf_clave.setForeground(new java.awt.Color(3, 3, 3));
+        jtf_clave.setBackground(new java.awt.Color(255, 255, 153));
+        jtf_clave.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jtf_clave.setForeground(new java.awt.Color(0, 0, 153));
 
-        jtf_nombre.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
-        jtf_nombre.setForeground(new java.awt.Color(3, 3, 3));
+        jtf_nombre.setBackground(new java.awt.Color(255, 255, 153));
+        jtf_nombre.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jtf_nombre.setForeground(new java.awt.Color(0, 0, 153));
 
-        jtf_contenido.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
-        jtf_contenido.setForeground(new java.awt.Color(3, 3, 3));
+        jtf_contenido.setBackground(new java.awt.Color(255, 255, 153));
+        jtf_contenido.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jtf_contenido.setForeground(new java.awt.Color(0, 0, 153));
 
-        cbx_unidades.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
-        cbx_unidades.setForeground(new java.awt.Color(3, 3, 3));
+        cbx_unidades.setBackground(new java.awt.Color(255, 255, 153));
+        cbx_unidades.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        cbx_unidades.setForeground(new java.awt.Color(0, 0, 153));
         cbx_unidades.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona", "kg", "g", "l", "ml", "m", "cm" }));
 
-        jtf_venta.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
-        jtf_venta.setForeground(new java.awt.Color(3, 3, 3));
+        jtf_venta.setBackground(new java.awt.Color(255, 255, 153));
+        jtf_venta.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jtf_venta.setForeground(new java.awt.Color(0, 0, 153));
 
-        jtf_stok.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
-        jtf_stok.setForeground(new java.awt.Color(3, 3, 3));
+        jtf_stok.setBackground(new java.awt.Color(255, 255, 153));
+        jtf_stok.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jtf_stok.setForeground(new java.awt.Color(0, 0, 153));
 
-        jPanel2.setBackground(new java.awt.Color(17, 13, 13));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        btn_guardar.setBackground(new java.awt.Color(2, 2, 2));
+        btn_guardar.setBackground(new java.awt.Color(255, 255, 153));
         btn_guardar.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_guardar.setForeground(new java.awt.Color(255, 255, 255));
+        btn_guardar.setForeground(new java.awt.Color(0, 0, 204));
         btn_guardar.setText("Guardar");
         btn_guardar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_guardarMouseClicked(evt);
             }
         });
+        btn_guardar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_guardarActionPerformed(evt);
+            }
+        });
 
-        jbt_modificar.setBackground(new java.awt.Color(2, 2, 2));
+        jbt_modificar.setBackground(new java.awt.Color(255, 255, 153));
         jbt_modificar.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        jbt_modificar.setForeground(new java.awt.Color(255, 255, 255));
+        jbt_modificar.setForeground(new java.awt.Color(0, 0, 204));
         jbt_modificar.setText("Modificar");
         jbt_modificar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -193,9 +204,9 @@ public class registro_productos1 extends javax.swing.JFrame {
             }
         });
 
-        jtb_eliminar.setBackground(new java.awt.Color(2, 2, 2));
+        jtb_eliminar.setBackground(new java.awt.Color(255, 255, 153));
         jtb_eliminar.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        jtb_eliminar.setForeground(new java.awt.Color(255, 255, 255));
+        jtb_eliminar.setForeground(new java.awt.Color(0, 0, 204));
         jtb_eliminar.setText("Eliminar");
         jtb_eliminar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -203,9 +214,9 @@ public class registro_productos1 extends javax.swing.JFrame {
             }
         });
 
-        btn_nuevo.setBackground(new java.awt.Color(2, 2, 2));
+        btn_nuevo.setBackground(new java.awt.Color(255, 255, 153));
         btn_nuevo.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_nuevo.setForeground(new java.awt.Color(255, 255, 255));
+        btn_nuevo.setForeground(new java.awt.Color(0, 0, 204));
         btn_nuevo.setText("Nuevo");
         btn_nuevo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -240,9 +251,9 @@ public class registro_productos1 extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        btn_buscar.setBackground(new java.awt.Color(2, 2, 2));
+        btn_buscar.setBackground(new java.awt.Color(255, 255, 153));
         btn_buscar.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_buscar.setForeground(new java.awt.Color(255, 255, 255));
+        btn_buscar.setForeground(new java.awt.Color(0, 0, 204));
         btn_buscar.setText("Buscar");
         btn_buscar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -252,11 +263,11 @@ public class registro_productos1 extends javax.swing.JFrame {
 
         jtf_id.setEditable(false);
 
-        jp_movimiento.setBackground(new java.awt.Color(17, 13, 13));
+        jp_movimiento.setBackground(new java.awt.Color(255, 255, 255));
 
-        btn_primero.setBackground(new java.awt.Color(2, 2, 2));
+        btn_primero.setBackground(new java.awt.Color(255, 255, 153));
         btn_primero.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_primero.setForeground(new java.awt.Color(255, 255, 255));
+        btn_primero.setForeground(new java.awt.Color(0, 0, 204));
         btn_primero.setText("|<");
         btn_primero.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -264,9 +275,9 @@ public class registro_productos1 extends javax.swing.JFrame {
             }
         });
 
-        btn_atras.setBackground(new java.awt.Color(2, 2, 2));
+        btn_atras.setBackground(new java.awt.Color(255, 255, 153));
         btn_atras.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_atras.setForeground(new java.awt.Color(255, 255, 255));
+        btn_atras.setForeground(new java.awt.Color(0, 0, 204));
         btn_atras.setText("<<");
         btn_atras.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -274,9 +285,9 @@ public class registro_productos1 extends javax.swing.JFrame {
             }
         });
 
-        btn_siguiente.setBackground(new java.awt.Color(2, 2, 2));
+        btn_siguiente.setBackground(new java.awt.Color(255, 255, 153));
         btn_siguiente.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_siguiente.setForeground(new java.awt.Color(255, 255, 255));
+        btn_siguiente.setForeground(new java.awt.Color(0, 0, 204));
         btn_siguiente.setText(">>");
         btn_siguiente.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -284,9 +295,9 @@ public class registro_productos1 extends javax.swing.JFrame {
             }
         });
 
-        btn_ultimo.setBackground(new java.awt.Color(2, 2, 2));
+        btn_ultimo.setBackground(new java.awt.Color(255, 255, 153));
         btn_ultimo.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_ultimo.setForeground(new java.awt.Color(255, 255, 255));
+        btn_ultimo.setForeground(new java.awt.Color(0, 0, 204));
         btn_ultimo.setText(">|");
         btn_ultimo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -398,6 +409,9 @@ public class registro_productos1 extends javax.swing.JFrame {
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
+
+        jMenuBar1.setBackground(new java.awt.Color(255, 255, 153));
+        jMenuBar1.setForeground(new java.awt.Color(0, 0, 204));
 
         jMenu1.setText("Inicio");
         jMenu1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -609,6 +623,10 @@ public class registro_productos1 extends javax.swing.JFrame {
                  entra.setVisible(true);
                  this.dispose(); 
     }//GEN-LAST:event_jMenu1MouseClicked
+
+    private void btn_guardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_guardarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_guardarActionPerformed
 
     /**
      * @param args the command line arguments

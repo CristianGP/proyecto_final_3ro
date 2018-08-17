@@ -104,43 +104,63 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel6.setBackground(new java.awt.Color(51, 51, 51));
-        jLabel6.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setBackground(new java.awt.Color(255, 255, 153));
+        jLabel6.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 0, 153));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("Registro de Distribuidores");
         jLabel6.setOpaque(true);
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setBackground(new java.awt.Color(255, 255, 153));
+        jLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 153));
         jLabel1.setText("<html>Nombre del Distribuidor:<html>");
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setBackground(new java.awt.Color(255, 255, 153));
+        jLabel2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 153));
         jLabel2.setText("Telefono:");
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setBackground(new java.awt.Color(255, 255, 153));
+        jLabel3.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 153));
         jLabel3.setText("Direccion:");
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setBackground(new java.awt.Color(255, 255, 153));
+        jLabel4.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 0, 153));
         jLabel4.setText("Estado:");
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setBackground(new java.awt.Color(255, 255, 153));
+        jLabel5.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(0, 0, 153));
         jLabel5.setText("Ciudad:");
+
+        jtf_nombre.setBackground(new java.awt.Color(255, 255, 153));
+        jtf_nombre.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+
+        jtf_telefono.setBackground(new java.awt.Color(255, 255, 153));
+        jtf_telefono.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+
+        jtf_direccion.setBackground(new java.awt.Color(255, 255, 153));
+        jtf_direccion.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+
+        jtf_estado.setBackground(new java.awt.Color(255, 255, 153));
+        jtf_estado.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+
+        jtf_ciudad.setBackground(new java.awt.Color(255, 255, 153));
+        jtf_ciudad.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
 
         jtf_id.setEditable(false);
 
-        jp_movimiento.setBackground(new java.awt.Color(17, 13, 13));
+        jp_movimiento.setBackground(new java.awt.Color(255, 255, 255));
 
-        btn_primero.setBackground(new java.awt.Color(2, 2, 2));
-        btn_primero.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_primero.setForeground(new java.awt.Color(255, 255, 255));
+        btn_primero.setBackground(new java.awt.Color(255, 255, 153));
+        btn_primero.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btn_primero.setForeground(new java.awt.Color(0, 0, 153));
         btn_primero.setText("|<");
         btn_primero.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -148,9 +168,9 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
             }
         });
 
-        btn_atras.setBackground(new java.awt.Color(2, 2, 2));
-        btn_atras.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_atras.setForeground(new java.awt.Color(255, 255, 255));
+        btn_atras.setBackground(new java.awt.Color(255, 255, 153));
+        btn_atras.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btn_atras.setForeground(new java.awt.Color(0, 0, 153));
         btn_atras.setText("<<");
         btn_atras.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -158,9 +178,9 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
             }
         });
 
-        btn_siguiente.setBackground(new java.awt.Color(2, 2, 2));
-        btn_siguiente.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_siguiente.setForeground(new java.awt.Color(255, 255, 255));
+        btn_siguiente.setBackground(new java.awt.Color(255, 255, 153));
+        btn_siguiente.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btn_siguiente.setForeground(new java.awt.Color(0, 0, 153));
         btn_siguiente.setText(">>");
         btn_siguiente.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -168,9 +188,9 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
             }
         });
 
-        btn_ultimo.setBackground(new java.awt.Color(2, 2, 2));
-        btn_ultimo.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_ultimo.setForeground(new java.awt.Color(255, 255, 255));
+        btn_ultimo.setBackground(new java.awt.Color(255, 255, 153));
+        btn_ultimo.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btn_ultimo.setForeground(new java.awt.Color(0, 0, 153));
         btn_ultimo.setText(">|");
         btn_ultimo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -205,11 +225,11 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(17, 13, 13));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        btn_guardar.setBackground(new java.awt.Color(2, 2, 2));
-        btn_guardar.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_guardar.setForeground(new java.awt.Color(255, 255, 255));
+        btn_guardar.setBackground(new java.awt.Color(255, 255, 153));
+        btn_guardar.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btn_guardar.setForeground(new java.awt.Color(0, 0, 153));
         btn_guardar.setText("Guardar");
         btn_guardar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -217,9 +237,9 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
             }
         });
 
-        jbt_modificar.setBackground(new java.awt.Color(2, 2, 2));
-        jbt_modificar.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        jbt_modificar.setForeground(new java.awt.Color(255, 255, 255));
+        jbt_modificar.setBackground(new java.awt.Color(255, 255, 153));
+        jbt_modificar.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jbt_modificar.setForeground(new java.awt.Color(0, 0, 153));
         jbt_modificar.setText("Modificar");
         jbt_modificar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -227,9 +247,9 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
             }
         });
 
-        jtb_eliminar.setBackground(new java.awt.Color(2, 2, 2));
-        jtb_eliminar.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        jtb_eliminar.setForeground(new java.awt.Color(255, 255, 255));
+        jtb_eliminar.setBackground(new java.awt.Color(255, 255, 153));
+        jtb_eliminar.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jtb_eliminar.setForeground(new java.awt.Color(0, 0, 153));
         jtb_eliminar.setText("Eliminar");
         jtb_eliminar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -237,9 +257,9 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
             }
         });
 
-        btn_nuevo.setBackground(new java.awt.Color(2, 2, 2));
-        btn_nuevo.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_nuevo.setForeground(new java.awt.Color(255, 255, 255));
+        btn_nuevo.setBackground(new java.awt.Color(255, 255, 153));
+        btn_nuevo.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btn_nuevo.setForeground(new java.awt.Color(0, 0, 153));
         btn_nuevo.setText("Nuevo");
         btn_nuevo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -274,9 +294,9 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        btn_buscar.setBackground(new java.awt.Color(2, 2, 2));
-        btn_buscar.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        btn_buscar.setForeground(new java.awt.Color(255, 255, 255));
+        btn_buscar.setBackground(new java.awt.Color(255, 255, 153));
+        btn_buscar.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        btn_buscar.setForeground(new java.awt.Color(0, 0, 153));
         btn_buscar.setText("Buscar");
         btn_buscar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -290,16 +310,21 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(16, 16, 16)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel5))
-                        .addGap(28, 28, 28)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(20, 20, 20)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel2)
+                                    .addComponent(jLabel3)
+                                    .addComponent(jLabel4)
+                                    .addComponent(jLabel5))
+                                .addGap(28, 28, 28))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jtf_nombre, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -313,7 +338,7 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
                                 .addComponent(jtf_estado, javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(jtf_direccion, javax.swing.GroupLayout.Alignment.LEADING))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
+                        .addGap(34, 34, 34)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jp_movimiento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
@@ -324,13 +349,13 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jtf_nombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jtf_id, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(btn_buscar))
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(34, 34, 34)
+                .addGap(33, 33, 33)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jtf_telefono, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2))
@@ -350,8 +375,11 @@ public class registro_distribuidores1 extends javax.swing.JFrame {
                 .addComponent(jp_movimiento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addContainerGap(21, Short.MAX_VALUE))
         );
+
+        jMenuBar1.setBackground(new java.awt.Color(255, 255, 153));
+        jMenuBar1.setForeground(new java.awt.Color(0, 0, 153));
 
         jMenu1.setText("Inicio");
         jMenu1.addMouseListener(new java.awt.event.MouseAdapter() {

@@ -61,29 +61,29 @@ public class Inicio extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jldos.setBackground(new java.awt.Color(0, 0, 0));
-        jldos.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
+        jldos.setBackground(new java.awt.Color(255, 255, 153));
+        jldos.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jldos.setForeground(new java.awt.Color(0, 0, 204));
         jldos.setOpaque(true);
 
-        jltienda.setBackground(new java.awt.Color(0, 0, 0));
-        jltienda.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
-        jltienda.setForeground(new java.awt.Color(255, 255, 255));
+        jltienda.setBackground(new java.awt.Color(255, 255, 153));
+        jltienda.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jltienda.setForeground(new java.awt.Color(0, 0, 204));
         jltienda.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jltienda.setText("Tienda de Abarrotes Blanquita");
         jltienda.setOpaque(true);
 
-        jldos1.setBackground(new java.awt.Color(0, 0, 0));
-        jldos1.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
+        jldos1.setBackground(new java.awt.Color(255, 255, 153));
+        jldos1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jldos1.setForeground(new java.awt.Color(0, 0, 204));
         jldos1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jldos1.setText("Bienvenido");
         jldos1.setOpaque(true);
 
-        jluno.setBackground(new java.awt.Color(0, 0, 0));
-        jluno.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
+        jluno.setBackground(new java.awt.Color(255, 255, 153));
+        jluno.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jluno.setForeground(new java.awt.Color(0, 0, 204));
         jluno.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jluno.setOpaque(true);
@@ -92,7 +92,7 @@ public class Inicio extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jltienda, javax.swing.GroupLayout.DEFAULT_SIZE, 305, Short.MAX_VALUE)
+            .addComponent(jltienda, javax.swing.GroupLayout.DEFAULT_SIZE, 469, Short.MAX_VALUE)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jldos, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
@@ -110,9 +110,11 @@ public class Inicio extends javax.swing.JFrame {
                 .addComponent(jldos1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jluno, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 142, Short.MAX_VALUE)
                 .addComponent(jldos, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
+
+        jMenuBar1.setBackground(new java.awt.Color(204, 204, 255));
 
         menuproductos.setBackground(new java.awt.Color(255, 255, 255));
         menuproductos.setForeground(new java.awt.Color(0, 0, 0));
@@ -205,11 +207,11 @@ public class Inicio extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();

@@ -47,11 +47,11 @@ public class login extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 153, 51));
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jbiniciar.setBackground(new java.awt.Color(0, 0, 0));
-        jbiniciar.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
-        jbiniciar.setForeground(new java.awt.Color(255, 255, 255));
+        jbiniciar.setBackground(new java.awt.Color(255, 255, 153));
+        jbiniciar.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jbiniciar.setForeground(new java.awt.Color(0, 0, 153));
         jbiniciar.setText("Iniciar Sesión");
         jbiniciar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -64,34 +64,34 @@ public class login extends javax.swing.JFrame {
             }
         });
 
-        txtpassword.setBackground(new java.awt.Color(255, 255, 255));
-        txtpassword.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        txtpassword.setForeground(new java.awt.Color(0, 0, 0));
+        txtpassword.setBackground(new java.awt.Color(255, 255, 153));
+        txtpassword.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        txtpassword.setForeground(new java.awt.Color(0, 0, 153));
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setBackground(new java.awt.Color(255, 255, 153));
         jLabel1.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setForeground(new java.awt.Color(0, 0, 153));
         jLabel1.setText("Password:");
 
-        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel3.setBackground(new java.awt.Color(255, 255, 153));
         jLabel3.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setForeground(new java.awt.Color(0, 0, 153));
         jLabel3.setText("Usuario:");
 
-        txtusuario.setBackground(new java.awt.Color(255, 255, 255));
-        txtusuario.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        txtusuario.setForeground(new java.awt.Color(0, 0, 0));
+        txtusuario.setBackground(new java.awt.Color(255, 255, 153));
+        txtusuario.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        txtusuario.setForeground(new java.awt.Color(0, 0, 153));
 
-        jLabel4.setBackground(new java.awt.Color(51, 51, 51));
-        jLabel4.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setBackground(new java.awt.Color(255, 255, 153));
+        jLabel4.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 0, 153));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Login");
         jLabel4.setOpaque(true);
 
-        jb_registrar.setBackground(new java.awt.Color(0, 0, 0));
+        jb_registrar.setBackground(new java.awt.Color(255, 255, 153));
         jb_registrar.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
-        jb_registrar.setForeground(new java.awt.Color(255, 255, 255));
+        jb_registrar.setForeground(new java.awt.Color(0, 0, 153));
         jb_registrar.setText("Registrarse");
         jb_registrar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -131,8 +131,8 @@ public class login extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(35, 35, 35)
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(txtusuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3))
@@ -140,7 +140,7 @@ public class login extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(txtpassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jbiniciar)
                     .addComponent(jb_registrar))
